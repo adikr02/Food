@@ -1,0 +1,1 @@
+CREATE TABLE `jadoo`.`user` ( `id` INT NOT NULL AUTO_INCREMENT ,  `uname` VARCHAR(255) NOT NULL ,  `uid` VARCHAR(255) NOT NULL ,  `upass` VARCHAR(255) NOT NULL ,    PRIMARY KEY  (`id`),    UNIQUE  (`upass`(255)),    UNIQUE  (`uid`(255)),    UNIQUE  (`uname`(255))) ENGINE = InnoDB;
